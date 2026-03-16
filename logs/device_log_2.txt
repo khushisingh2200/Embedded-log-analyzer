@@ -1,0 +1,4 @@
+[INFO] Power on successful
+[INFO] Self-test completed
+[WARN] Voltage fluctuation detected
+[INFO] Communication stable

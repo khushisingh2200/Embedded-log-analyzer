@@ -1,0 +1,11 @@
+[INFO] Boot successful
+[INFO] Sensor initialized
+[WARN] Temperature threshold high
+[ERROR] UART communication failure
+[INFO] Retry started
+[WARN] Low battery detected
+[ERROR] Sensor timeout
+[INFO] Shutdown complete
+[WARN] Invalid sensor reading detected
+[ERROR] Network disconnect occurred
+[WARN] CPU overload condition observed
