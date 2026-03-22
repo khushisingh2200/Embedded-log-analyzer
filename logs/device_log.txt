@@ -5,7 +5,7 @@
 [INFO] Retry started
 [WARN] Low battery detected
 [ERROR] Sensor timeout
-[INFO] Shutdown complete
-[WARN] Invalid sensor reading detected
+[INFO] Shutdown complete 
+[WARN] Invalid sensor reading detected failed
 [ERROR] Network disconnect occurred
 [WARN] CPU overload condition observed

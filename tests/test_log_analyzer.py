@@ -86,10 +86,10 @@ def test_format_report_contains_expected_sections():
 
 
 def test_analyze_log_file_raises_file_not_found():
-    fake_path = "logs/this_file_does_not_exist.txt"
+    fakepath = "logs/this_file_does_not_exist.txt"
 
     try:
-        analyze_log_file(fake_path)
+        analyze_log_file(fakepath)
         assert False, "Expected FileNotFoundError to be raised"
     except FileNotFoundError:
         assert True
