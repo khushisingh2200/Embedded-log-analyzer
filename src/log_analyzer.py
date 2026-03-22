@@ -3,7 +3,7 @@ import sys
 import csv
 
 
-CRITICAL_KEYWORDS = ["timeout", "failure", "invalid", "disconnect", "overload"]
+CRITICAL_KEYWORDS = ["timeout", "failure", "invalid", "disconnect", "overload","failed"]
 
 
 def analyze_log_file(file_path: str) -> dict:
@@ -115,6 +115,7 @@ def save_summary_csv(results: list[dict], output_path: str) -> None:
             "invalid",
             "disconnect",
             "overload",
+            "failed",
         ])
 
         for result in results:

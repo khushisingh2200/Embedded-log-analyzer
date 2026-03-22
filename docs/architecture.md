@@ -1,9 +1,11 @@
 # Architecture Overview
 The Embedded Log Analyzer processes one or more log files and generates validation reports.
+The entire architecture overview of this project is as follows:
 
 +----------------------+
 |  Log Files           |
 |  (device_log.txt)    |
+|  (device_log_2.txt)  |
 +----------+-----------+
            |
            v
@@ -13,7 +15,7 @@ The Embedded Log Analyzer processes one or more log files and generates validati
 |                      |
 |  - Count log levels  |
 |  - Detect keywords   |
-|  - Determine status  |
+|  - Determines status |
 +----------+-----------+
            |
            v
