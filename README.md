@@ -1,6 +1,13 @@
 # Embedded Log Analyzer
+This is one of my recent projects where I focussed on building a structured approach to log monitoring and system diagnostics.
+This is a Python-based tool to analyze embedded system log files and detect warnings and errors automatically.
 
-A Python-based tool to analyze embedded system log files and detect warnings and errors automatically.
+# Problem Statement
+Embedded Systems generate large volumes of logs during execution. Manually analyzing these logs are time consuming and error prone.
+This tool automates:
+1) Log parsing
+2) Error/Warning detection
+3) System health evaluation
 
 ## Features
 - Reads log files
@@ -8,9 +15,10 @@ A Python-based tool to analyze embedded system log files and detect warnings and
 - Generates PASS/FAIL status
 
 ## Folder Structure
-- `logs/` → sample input logs
-- `src/` → source code
-- `reports/` → future generated reports
+- `logs/` -> sample input logs
+- `src/` -> source code
+- `reports/` -> future generated reports
+- `tests/` -> unit tests
 
 ## Run
 ```bash
@@ -31,6 +39,7 @@ reports/analysis_report.txt
   - `disconnect`
   - `overload`
 - Saves analysis output to `reports/analysis_report.txt`
+- Creates a summary report and saves it to `reports/summary_report.csv`
 
 ## Testing
 
