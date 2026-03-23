@@ -56,6 +56,7 @@ You can analyze multiple log files in one command:
 
 ```bash
 python src/log_analyzer.py logs/device_log.txt logs/device_log_2.txt
+```
 
 ## Learning outcomes
 -log-based debugging
